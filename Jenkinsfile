@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building.."
+                echo "Building test.."
                 sh '''
                 echo "doing build stuff.."
                 '''
@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo "Testing.."
+                echo "Testing test.."
                 sh '''
                 echo "doing test stuff.."
                 '''
@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                echo 'Deliver....'
+                echo 'Deliver test....'
                 sh '''
                 echo "doing delivery stuff.."
                 '''
