@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building test.."
+                echo "Building test sam desde github.."
                 sh '''
                 echo "doing build stuff.."
                 '''
